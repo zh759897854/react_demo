@@ -63,7 +63,7 @@ class Borad extends Component {
     }
     return (
       <div>
-        <div>{status}</div>
+        <div className='title'>{status}</div>
         <div className='container'>{strArray}</div>
       </div>
     )

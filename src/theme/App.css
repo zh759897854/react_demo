@@ -19,13 +19,13 @@ body {
   float: left;
   font-size: 24px;
   font-weight: bold;
-  line-height: 34px;
-  height: 34px;
+  line-height: 60px;
+  width: 60px;
+  height: 60px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
 }
 
 .square:focus {
@@ -45,7 +45,7 @@ body {
   margin-left: 20px;
 }
 .App {
-  text-align: left;
+  text-align: center;
   padding: 10px;
 }
 
@@ -54,11 +54,15 @@ ol, ul {
 }
 
 .container {
-  width: 103px;
+  width: 180px;
   white-space: normal;
-  margin-top: 10px;
+  margin: 0 auto;
 }
 
 .highlight {
   color: #14b8de;
+}
+
+.title {
+  padding: 15px;
 }
